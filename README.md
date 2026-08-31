@@ -1,6 +1,6 @@
-# 🔍 C Memory Leak Detector (Bellek Sızıntısı Tespit Edici)
+# 🔍 C Memory Leak Detector 
 
-Dinamik bellek yönetimi (heap memory) kullanan C programlarında ayrılan fakat serbest bırakılmayan bellek bloklarını dosya adı ve satır numarasıyla birlikte tespit eden hafif (lightweight) bir hata ayıklama aracı.
+Dinamik bellek yönetimi (heap memory) kullanan C programlarında ayrılan fakat serbest bırakılmayan bellek bloklarını dosya adı ve satır numarasıyla birlikte tespit eden hafif bir hata ayıklama aracı.
 
 ---
 
@@ -26,6 +26,13 @@ memory-leak-detector/
 │
 ├── src/
 │   ├── leak_detector.c    # Takip listesi ve raporlama çekirdeği
-│   └── main.c             # İnteraktif test ve doğrulama konsolu
+│   └── main.c             # Test edeceğimiz örnek program
 │
 └── README.md
+
+
+```
+Kodu Çalıştırma:
+```bash
+gcc -Iinclude src/leak-detector.c src/main.c -o leak-detector.exe
+.\leak-detector.exe
