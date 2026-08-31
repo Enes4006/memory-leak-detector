@@ -1,10 +1,10 @@
-# 🔍 C Memory Leak Detector 
+# Memory Leak Detector 
 
 Dinamik bellek yönetimi (heap memory) kullanan C programlarında ayrılan fakat serbest bırakılmayan bellek bloklarını dosya adı ve satır numarasıyla birlikte tespit eden hafif bir hata ayıklama aracı.
 
 ---
 
-## 📌 Proje Hakkında
+## Proje Hakkında
 
 C dilinde dinamik bellek yönetimi geliştiricinin sorumluluğundadır. `malloc` ile ayrılan bir alanın `free` ile serbest bırakılması unutulduğunda **bellek sızıntısı (memory leak)** meydana gelir.
 
