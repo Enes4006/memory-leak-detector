@@ -16,21 +16,6 @@ Bu proje;
 
 ---
 
-## 📂 Proje Ağacı
-
-```text
-memory-leak-detector/
-│
-├── include/
-│   └── leak_detector.h    # Makro yönlendirmeleri ve fonksiyon prototipleri
-│
-├── src/
-│   ├── leak_detector.c    # Takip listesi ve raporlama çekirdeği
-│   └── main.c             # Test edeceğimiz örnek program
-│
-└── README.md
-
-
 ```
 Kodu Çalıştırma:
 ```powershell
