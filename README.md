@@ -33,6 +33,6 @@ memory-leak-detector/
 
 ```
 Kodu Çalıştırma:
-```bash
+```powershell
 gcc -Iinclude src/leak-detector.c src/main.c -o leak-detector.exe
 .\leak-detector.exe
