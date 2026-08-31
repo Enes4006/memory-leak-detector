@@ -1,0 +1,18 @@
+Proje Ağaç Yapısı:
+
+memory-leak-detector/
+│
+├── include/
+│   └── leak_detector.h    # Makrolar ve fonksiyon bildirimleri
+│
+├── src/
+│   ├── leak_detector.c    # Takip ve raporlama mantığı
+│   └── main.c             # Test edeceğimiz örnek program
+
+
+
+
+Kodu Çalıştırma:
+
+gcc -Iinclude src/leak-detector.c src/main.c -o leak-detector.exe
+.\leak-detector.exe
